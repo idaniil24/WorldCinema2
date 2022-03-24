@@ -23,7 +23,7 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/profile_fragment"
+        android:id="@+id/navigation_profile"
         android:name="com.example.worldcinema2.profile_fragment"
         android:label="@string/profilestring"
         tools:layout="@layout/fragment_profile_fragment"/>

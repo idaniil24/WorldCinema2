@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/drawable/botom_navigation_selector.xml" value="0.1665" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/drawable/iconheart.xml" value="0.1665" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/activity_main2.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/drawable/border.xml" value="0.3675" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/drawable/edittxtborder.xml" value="0.3675" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/drawable/podborka.xml" value="0.223" />
@@ -13,6 +20,7 @@
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/fragment_dashboard.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />

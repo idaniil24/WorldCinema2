@@ -78,7 +78,8 @@
             android:layout_marginTop="60dp"
             android:backgroundTint="#EF3A01"
             android:onClick="loginbtn"
-            android:text="Войти"></Button>
+            android:text="Войти">
+        </Button>
         <LinearLayout
             android:layout_width="match_parent"
             android:background="@drawable/border"
