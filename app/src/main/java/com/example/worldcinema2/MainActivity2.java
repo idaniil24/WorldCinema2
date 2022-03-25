@@ -1,6 +1,8 @@
 package com.example.worldcinema2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -34,4 +36,8 @@ public class MainActivity2 extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    public void onCkick(View view) {
+        Intent i = new Intent(MainActivity2.this, SignInScreen.class);
+        startActivity(i);
+    }
 }

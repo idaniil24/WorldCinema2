@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/drawable/botom_navigation_selector.xml" value="0.1665" />
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/drawable/iconheart.xml" value="0.1665" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/drawable/orangecircle.xml" value="0.1665" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/activity_main2.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/createcollection.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/fragment_notifications.xml" value="0.21" />
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/Desktop/GIT/WorldCinema2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Administrator/Desktop/WorldCinema2/app/src/main/res/drawable/border.xml" value="0.3675" />

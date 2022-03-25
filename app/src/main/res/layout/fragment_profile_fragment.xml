@@ -63,33 +63,34 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/obsujdeniaidon">
-            </ImageView>
+                android:background="@drawable/obsujdeniaidon"></ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Обсуждения"
-                android:paddingLeft="10dp"
-                android:textSize="17dp"
-                android:paddingTop="1dp"
                 android:fontFamily="@font/roboto_bold"
-                android:gravity="center">
-            </TextView>
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="1dp"
+                android:text="Обсуждения"
+                android:textColor="@color/white"
+                android:textSize="17dp"></TextView>
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="25dp"
                 android:layout_marginLeft="220dp"
-                android:background="@drawable/arrowicon">
-            </ImageView>
+                android:background="@drawable/arrowicon"
+                android:paddingTop="25dp"></ImageView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -160,6 +161,8 @@
                 android:layout_gravity="center"
                 android:layout_margin="1dp"
                 android:text="Выход"
+                android:onClick="onCkick"
+                android:textAllCaps="false"
                 android:textColor="#EF3A01"
                 android:backgroundTint="#150D0B">
             </Button>

@@ -8,7 +8,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:background="#150D0B"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
@@ -21,7 +22,7 @@
                 android:fontFamily="@font/roboto_bold"
                 android:text="Коллекции"
                 android:gravity="center"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="40dp"
                 android:layout_weight="1"
                 android:textColor="@color/white">
             </TextView>
@@ -31,6 +32,114 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/plusicon">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/orangecircle">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/hearticon">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Избранное"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/white">
+            </TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/arrowicon">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/orangecircle">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/clockicon">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Когда-нибудь"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/white">
+            </TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="176dp"
+                android:background="@drawable/arrowicon">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/orangecircle">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/airplaneicon">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В поездку      "
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/white">
+            </TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="176dp"
+                android:background="@drawable/arrowicon">
             </ImageView>
         </LinearLayout>
     </LinearLayout>
