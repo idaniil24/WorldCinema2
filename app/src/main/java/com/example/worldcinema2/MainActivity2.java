@@ -37,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void onCkick(View view) {
-        Intent i = new Intent(MainActivity2.this, SignInScreen.class);
+        Intent i = new Intent(MainActivity2.this, LoginActivity.class);
         startActivity(i);
     }
 }
