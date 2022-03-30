@@ -10,7 +10,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="24dp"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:letterSpacing="0.04"
             android:text="WorldCinema"
             android:textAlignment="center"
-            android:textColor="#EF3A01"
+            android:textColor="#DF2800"
             android:textSize="36dp" />
     </LinearLayout>
 
@@ -46,15 +46,54 @@
             android:layout_height="wrap_content"
             android:background="@drawable/corners_bg"
             android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#150D0B"
+                android:hint="Имя"
+                android:paddingLeft="13dp"
+                android:paddingTop="12dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/corners_bg">
+            <EditText
+                android:id="@+id/surnameInput"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="7dp"
+                android:hint="Фамилия"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:background="#150D0B"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/corners_bg">
             <EditText
                 android:id="@+id/emailInput"
                 android:layout_margin="2dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="13dp"
-                android:paddingTop="16dp"
+                android:paddingTop="13dp"
                 android:paddingRight="13dp"
-                android:paddingBottom="16dp"
+                android:paddingBottom="7dp"
                 android:hint="E-mail"
                 android:textColor="@color/gray"
                 android:textColorHint="@color/gray"
@@ -63,6 +102,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/corners_bg">
             <EditText
                 android:id="@+id/passwordInput"
@@ -70,10 +110,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="13dp"
-                android:paddingTop="16dp"
+                android:paddingTop="13dp"
                 android:paddingRight="13dp"
-                android:paddingBottom="16dp"
+                android:paddingBottom="7dp"
                 android:hint="Пароль"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:background="#150D0B"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/corners_bg">
+            <EditText
+                android:id="@+id/repeatPasswordInput"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="7dp"
+                android:hint="Повторите пароль"
                 android:ems="10"
                 android:inputType="textPassword"
                 android:textColor="@color/gray"
@@ -86,13 +147,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <com.google.android.material.button.MaterialButton
-            android:onClick="loginUser"
-            android:id="@+id/loginButton"
+            android:onClick="registerUser"
+            android:id="@+id/registerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Войти"
+            android:text="Зарегистироваться"
             android:paddingTop="13dp"
             android:paddingBottom="13dp"
             android:textAllCaps="false"
@@ -102,11 +162,11 @@
             app:backgroundTint="#EF3A01"
             app:cornerRadius="3dp" />
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/registerButton"
+            android:onClick="moveToLoginScreen"
+            android:id="@+id/loginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Регистрация"
-            android:onClick="onRegisterCkick"
+            android:text="У меня уже есть аккаунт"
             android:paddingTop="13dp"
             android:paddingBottom="13dp"
             android:textAllCaps="false"
